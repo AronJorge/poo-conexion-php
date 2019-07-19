@@ -12,7 +12,7 @@ $NewConn->CreateConnection();
 //////////////////////////////
 // INSERTAR
 //////////////////////////////
-$query = "INSERT INTO users( first_name, last_name, email, password) VALUES ('Antoriop','Gutierrez','jg250274@gmail.com','21232f297a57a5a743894a0e4a801fc3')";
+$query = "INSERT INTO users( first_name, last_name, email, password) VALUES ('Jorge','Gutierrez','jg250274@gmail.com','21232f297a57a5a743894a0e4a801fc3')";
 $result = $NewConn->ExecuteQuery($query);
 
 if ($result) {
